@@ -1,0 +1,122 @@
+.contact {
+  text-align: center;
+    padding: 2rem 8%;
+}
+
+.contact .h2{
+border: 1px solid #5c5c5c;
+  padding: 0.8rem 0.8rem;
+  background: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+
+.contact .h22 {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  /* width: 35%; */
+  line-height: 1.6;
+}
+
+.form-action {
+  margin-top: 2rem;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr)); */
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+textarea {
+  width: 96.5%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.form-action 
+select {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.form-action input {
+  width: 93%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+
+.form-action .username,
+.email {
+  background: hsl(0, 0%, 95%);
+}
+
+/* JS classes for contact form */
+
+.form-action .p1,
+.p2 {
+  display: none;
+}
+
+.form-action .active {
+  color: red;
+  text-align: left;
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  display: block;
+}
+
+.p3 {
+  display: none;
+}
+
+.p3.active {
+  color: red;
+  text-align: left;
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  display: block;
+}
+
+.textarea.error {
+  border: 1px solid red;
+}
+
+.form-action .error {
+  border: 1px solid red;
+  background: none;
+}
+
+/* contact form classes end */
+
+.textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contactbtn {
+  display: block;
+  background: #111;
+  width: 100%;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  padding: 1.2rem;
+  margin-top: 2rem;
+}
+
+.contactbtn:hover {
+  background: #333;
+}

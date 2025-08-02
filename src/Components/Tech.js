@@ -1,27 +1,31 @@
 const Tech_data = [
     {
-        "image": "./src/assets/React.svg",
+        "image": "./src/assets/HTML.jpg",
         "name": "HTML"
     },
     {
-        "image": "./src/assets/black.jpg",
+        "image": "./src/assets/css.jpg",
         "name": "CSS"
     },
     {
-        "image": "HTML",
+        "image": "./src/assets/Bootstrap.jpg",
         "name": "Bootstrap"
     },
     {
-        "image": "HTML",
+        "image": "./src/assets/Javascript.jpg",
         "name": "Javascript"
     },
     {
-        "image": "HTML",
+        "image": "./src/assets/react.svg",
         "name": "React"
     },
     {
-        "image": "HTML",
+        "image": "./src/assets/Github.jpg",
         "name": "Github"
+    },
+    {
+        "image": "./src/assets/Typescript.jpg",
+        "name": "Typescript"
     },
 ]
 

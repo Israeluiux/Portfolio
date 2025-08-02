@@ -1,5 +1,4 @@
 import "./Tech.css"
-import image from "../../assets/react.svg"
 import Tech_data from "../../Components/Tech"
 
 

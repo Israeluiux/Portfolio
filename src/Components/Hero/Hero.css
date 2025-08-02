@@ -1,0 +1,102 @@
+.heading {
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0 9%;
+  padding-bottom: 1rem;
+}
+
+.parent-content{
+  display: flex;
+  justify-content: center;
+}
+
+.left-side img{
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background: #000000;
+  top: 15rem;
+  left: 10rem;
+  transform: rotate(-3deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-side video{
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background: #000000;
+  top: 15rem;
+  right: 10rem;
+  transform: rotate(3deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-content p{
+  margin-top: 2rem;
+  padding: 0 20%;
+  text-align: center;
+  color: hsl(0, 0%, 10%);
+}
+
+.blue {
+  background: blue;
+  color: #fff;
+  display: inline-block;
+  transform: rotate(-3deg);
+  padding: 0 0.4rem;
+}
+
+.orange {
+  background: orangered;
+  color: #fff;
+  display: inline-block;
+  transform: rotate(3deg);
+  padding: 0rem 0.4rem;
+}
+
+
+
+.h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #121212;
+  padding: 0 4.5rem;
+}
+
+.CTO {
+  margin-top: 2rem;
+}
+
+.CTO-1 {
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 2rem;
+}
+
+#reachout {
+  background: #000000;
+  color: #fff;
+}
+
+#reachout:hover {
+  background: #3d3d3d;
+  color: #fff;
+}
+
+#myworks {
+  color: #181818;
+  margin-left: .5rem;
+  text-decoration: underline;
+}
+
+.heading #myworks:hover {
+    background: rgba(0, 0, 0, 0.134);
+}

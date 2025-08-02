@@ -11,9 +11,9 @@ const Header = () => {
             {/* nav links */}
             <ol className="nav-links">
                 <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
                 <li><Link to="/myworks">My works</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/socials">Socials</Link></li>
             </ol>
             {/* CTA's */}
             <div className="cto">
