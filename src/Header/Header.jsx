@@ -1,3 +1,4 @@
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import image from "../assets/react.svg"
 import "./Header.css"
@@ -19,6 +20,13 @@ const Header = () => {
             <div className="cto">
                 <Link className="signup" to="/reach_out">Reach out</Link>
             </div>
+        {/* Mobile version */}
+        <div className="burger">
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
+       </div>
+      
         </div>
         </div>
     )

@@ -3,6 +3,7 @@ import Header from "./Header/Header.jsx"
 import Home from "./Home/Home.jsx"
 import Contact from "./Contact/Contact.jsx"
 import Footer from "./Footer/Footer.jsx"
+import About from "./About/About.jsx"
 import './App.css'
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/contact" element={ <Contact /> } />
-        {/* <Route path="/myworks" element={ <Works /> } />
-        <Route path="/about" element={ <About /> } /> */}
+        <Route path="/about" element={ <About /> } />
+        {/* <Route path="/myworks" element={ <Works /> } /> */}
       </Routes>
       <Footer />
     </Router>
