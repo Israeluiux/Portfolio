@@ -56,18 +56,18 @@
 
 @media (max-width: 991px) {
   .tech-section {
-    padding: 0 10%;
+    padding: 2rem 10%;
   }
 }
 @media (max-width: 750px) {
   .tech-section{
-    padding: 0rem 7%;
+    padding: 2rem 7%;
   }
 
   
 }
 @media (max-width: 550px) {
   .tech-section{
-    padding: 0rem 6%;
+    padding: 2rem 6%;
   }
 }

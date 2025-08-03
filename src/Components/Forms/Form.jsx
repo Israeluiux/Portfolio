@@ -13,19 +13,21 @@ const Form = () => {
 
       <form action="form">
         <div className="form-action">
-          <div className="displayerror">
-            <input
-            className="username"
-            type="text"
-            placeholder="Enter your fullname"
-          />
-          <p className="p1 ">⚠ Please fill this field</p>
-          </div>
-          
-          <div className="displayerror">
-            <input className="email" type="text" placeholder="Enter your email" />
-            <p className="p2 ">⚠ Please enter a valid email</p>
-          </div>
+          {/* <div className="input-field"> */}
+                  <div className="displayerror">
+                  <input
+                  className="username"
+                  type="text"
+                  placeholder="Enter your fullname"
+                />
+                <p className="p1 ">⚠ Please fill this field</p>
+                </div>
+                
+                <div className="displayerror">
+                  <input className="email" type="text" placeholder="Enter your email" />
+                  <p className="p2 ">⚠ Please enter a valid email</p>
+                </div>
+          {/* </div> */}
 
           <select className="category" id="userselection">
             <option value="">FinTech</option>
