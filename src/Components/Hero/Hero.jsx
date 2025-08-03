@@ -15,7 +15,7 @@ const Hero = () => {
                         <span className="blue"> Frontend</span><br/>
                         <span className="orange"> Developer.</span>
                         </h1>
-
+                        <div className="p">A product designer and Frontent Developer</div>
                     </div>
 
                     </div>

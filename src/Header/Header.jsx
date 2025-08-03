@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <div className="section">
             {/* logo section */}
-            <div className="logo" style={{display: 'flex'}}><img src={image} alt="" /><p>Portfolio</p></div>
+            <div className="logo" style={{display: 'flex'}}><img src={image} alt="" /><p>Israel</p></div>
             {/* nav links */}
             <ol className="nav-links">
                 <li><Link to="/">Home</Link></li>

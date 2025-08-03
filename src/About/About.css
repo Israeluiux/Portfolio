@@ -4,7 +4,7 @@
 
 .about-top h2{
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   line-height: 1.2;
   color: #121212;
 }
@@ -34,12 +34,9 @@
 }
 
 .left-side img{
-  /* position: absolute; */
   width: 15rem;
   height: 15rem;
   background: #000000;
-  top: 15rem;
-  left: 10rem;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -54,12 +51,35 @@
 }
 
 .right-side img{
-  /* position: absolute; */
   width: 15rem;
   height: 15rem;
   background: #000000;
-  top: 15rem;
-  right: 10rem;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 991px){
+    .about-section{
+        padding: 2rem 10%;
+    }
+}
+
+@media (max-width: 750px){
+    .about-section{
+        padding: 2rem 7%;
+    }
+}
+
+@media (max-width: 550px){
+
+    .about-section{
+        padding: 2rem 3%;
+    }
+
+    .left-side img, .right-side img{
+      width: 13rem;
+      height: 13rem;
+    }
+
+
 }

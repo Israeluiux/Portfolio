@@ -14,10 +14,11 @@
 }
 
 
-.main-content p{
-  margin-top: 2rem;
-  padding: 0 20%;
-  color: hsl(0, 0%, 10%);
+.main-content .p{
+  font-size: 1.2rem;
+    margin-bottom: 1rem;
+  line-height: 1.3;
+  color: hsl(0, 0%, 25%);
 }
 
 /* .blue {
@@ -74,4 +75,30 @@
 
 .heading #myworks:hover {
     background: rgba(0, 0, 0, 0.134);
+}
+
+@media (max-width: 991px) {
+  .heading {
+    padding: 0 10%;
+  }
+}
+@media (max-width: 750px) {
+  .heading{
+    padding: 0rem 7%;
+  }
+
+  .h1{
+    font-size: 3rem;
+  }
+  
+}
+@media (max-width: 550px) {
+  .heading{
+    padding: 0rem 3%;
+  }
+
+  .h1{
+    font-size: 2.6rem;
+  }
+
 }

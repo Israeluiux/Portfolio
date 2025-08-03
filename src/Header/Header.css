@@ -6,12 +6,16 @@
     margin-top: -1rem;
 }
 
+.logo img{
+    width: 2.5rem;
+}
+
 .logo p{
     font-weight: bold;
 }
 
 .section{
-    padding: 1rem 9%;
+    padding: 1rem 15%;
     padding-bottom: 1rem;
     display: flex;
     justify-content: space-between;
@@ -71,6 +75,9 @@ li{
   html {
     font-size: 90%;
   }
+
+
+
 }
 
 @media (max-width: 750px) {

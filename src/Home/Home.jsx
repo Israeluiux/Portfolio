@@ -4,12 +4,14 @@ import "./Home.css"
 import Tech from "./Tech/Tech.jsx"
 import Hero from "../Components/Hero/Hero.jsx"
 import Contact from "../Contact/Contact.jsx"
+import Work from "./Works/Work.jsx"
 
 const Home = () => {
     return (
         <div>
     <Hero />
     <Tech />
+    <Work />
     <Contact />
         </div>
     )

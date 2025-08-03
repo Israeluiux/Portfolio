@@ -14,10 +14,10 @@ const Footer = () => {
                         <div className="socials">
                             <div>
                                 <ul class="social-footer">
-                                <li><Link>LinkedIn</Link></li>
-                                <li><Link>Instagram</Link></li>
-                                <li><Link>Github</Link></li>
-                                <li><Link to="https://x.com">Twitter(Formaly X)</Link></li>
+                                <li><Link>↗ LinkedIn</Link></li>
+                                <li><Link>↗ Instagram</Link></li>
+                                <li><Link>↗ Github</Link></li>
+                                <li><Link to="https://x.com">↗ Twitter(Formaly X)</Link></li>
                                 </ul>
                             </div>
 

@@ -6,7 +6,7 @@ const Tech = () => {
     return (
         <div>
             <div className="tech-section">
-                <h2>Technologies</h2>
+                {/* <h2>Technologies</h2> */}
                 <div className="next-section">
                     {
                         Tech_data.map((each) => (

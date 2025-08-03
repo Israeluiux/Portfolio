@@ -1,0 +1,102 @@
+.work-section{
+    padding: 2rem 15%;
+}
+
+.work-body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 2rem;
+}
+
+.work-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.work-card{
+    height: auto;
+    /* width: 22rem; */
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+}
+
+.work-card .imgs{
+    width: 100%;
+    height: 12rem;
+    background: #d6d6d6;
+    border-radius: 1rem;
+}
+
+.work-card .imgs img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.work-card .title{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.work-card .body{
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 25%);
+    line-height: 1.4;
+}
+
+.type-container{
+    display: flex;
+    margin-top: 1rem;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.work-card .type{
+    padding: .6rem .8rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+
+.work-card .ctoo{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+}
+
+.work-card .ctoo a{
+    text-decoration: none;
+    padding: .9rem 1rem;
+    background: #000;
+    color: #fff;
+    border-radius: 1rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .work-section {
+    padding: 2rem 10%;
+  }
+
+  
+}
+@media (max-width: 750px) {
+  .work-section{
+    padding: 2rem 7%;
+  }
+
+
+  
+}
+@media (max-width: 550px) {
+  .work-section{
+    padding: 2rem 6%;
+  }
+
+
+}

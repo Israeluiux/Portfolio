@@ -53,3 +53,21 @@
     border-radius: 1rem;
     background-size: cover;
 }
+
+@media (max-width: 991px) {
+  .tech-section {
+    padding: 0 10%;
+  }
+}
+@media (max-width: 750px) {
+  .tech-section{
+    padding: 0rem 7%;
+  }
+
+  
+}
+@media (max-width: 550px) {
+  .tech-section{
+    padding: 0rem 6%;
+  }
+}

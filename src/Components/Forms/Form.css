@@ -22,8 +22,8 @@ border: 1px solid #5c5c5c;
 .form-action {
   margin-top: 2rem;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr)); */
   grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr)); */
   gap: 1rem;
 }
 
@@ -119,4 +119,24 @@ select {
 
 .contactbtn:hover {
   background: #333;
+}
+
+@media (max-width: 991px) {
+  .contact {
+    padding: 2rem 10%;
+  }
+}
+@media (max-width: 750px) {
+  .contact{
+    padding: 2rem 7%;
+  }
+
+  
+}
+@media (max-width: 550px) {
+  .contact{
+    padding: 2rem 3%;
+  }
+
+
 }

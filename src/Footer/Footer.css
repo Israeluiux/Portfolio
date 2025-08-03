@@ -1,5 +1,6 @@
 .footer-section{
     padding: 2rem 15%;
+    padding-bottom: 3rem;
 }
 
 .sub-footer{
@@ -49,17 +50,34 @@
     text-align: end;
 }
 
+@media (max-width: 991px){
+    .footer-section{
+        padding: 2rem 10%;
+    }
+}
+
+@media (max-width: 750px){
+    .footer-section{
+        padding: 2rem 7%;
+    }
+}
+
 @media (max-width: 550px){
+
+    .footer-section{
+        padding: 2rem 3%;
+    }
+
     .socials{
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
 
-}
+    }
 
-.contacts{
+    .contacts{
     margin-top: 3rem;
     text-align: start;
-}
+    }
 
 }
