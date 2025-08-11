@@ -11,7 +11,7 @@ const Header = () => {
             <div className="logo" style={{display: 'flex'}}><img src={image} alt="" /><p>Israel</p></div>
             {/* nav links */}
             <ol className="nav-links">
-                <li><Link to="/">Home</Link></li>
+                <li><Link to="/Portfolio">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/myworks">My works</Link></li>
                 <li><Link to="/contact">Contact</Link></li>

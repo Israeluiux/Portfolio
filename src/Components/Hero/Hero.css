@@ -37,13 +37,24 @@
   padding: 0rem 0.4rem;
 } */
 
+.available{
+  margin-top: 1rem;
+}
 
+.available a{
+  background: hsl(133, 54%, 91%);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: hsl(153, 100%, 33%);
+}
 
 .h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
   line-height: 1.2;
   color: #121212;
+  margin-top: 2.5rem;
   /* padding: 0 4.5rem; */
 }
 
@@ -79,12 +90,12 @@
 
 @media (max-width: 991px) {
   .heading {
-    padding: 0 10%;
+    padding: 2rem 10%;
   }
 }
 @media (max-width: 750px) {
   .heading{
-    padding: 0rem 7%;
+    padding: 2rem 7%;
   }
 
   .h1{
@@ -94,7 +105,7 @@
 }
 @media (max-width: 550px) {
   .heading{
-    padding: 0rem 3%;
+    padding: 2rem 3%;
   }
 
   .h1{

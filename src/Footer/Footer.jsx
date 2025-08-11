@@ -13,7 +13,7 @@ const Footer = () => {
                         {/* bottom contents */}
                         <div className="socials">
                             <div>
-                                <ul class="social-footer">
+                                <ul className="social-footer">
                                 <li><Link>↗ LinkedIn</Link></li>
                                 <li><Link>↗ Instagram</Link></li>
                                 <li><Link>↗ Github</Link></li>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import "./Work.css"
 import work_data from "../../Components/work"
+import { AiOutlineGithub } from "react-icons/ai";
 
 const Work = () => {
     return(
@@ -8,9 +9,9 @@ const Work = () => {
                 <div className="work-title">My Projects.</div>
             <div className="work-body">
                 {
-                    work_data.map((work) => (
+                    work_data.map((work, index) => (
 
-                <div className="work-card">
+                <div className="work-card" key={index}>
                     <div className="imgs"><img src={work.img} alt="" /></div>
                     <div className="title">{work.title}</div>
                     <div className="body">{work.body}</div>
@@ -22,7 +23,10 @@ const Work = () => {
                             ))
                         }
                     </div>
-                    <div className="ctoo"><Link to="">View Project</Link></div>
+                    <div className="ctoo">
+                        <Link to="" className="a">View Project</Link>
+                        {/* <Link to="" className="git"><AiOutlineGithub size={40}/></Link> */}
+                        </div>
                 </div>
                     ))
                 }

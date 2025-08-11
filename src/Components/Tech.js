@@ -1,30 +1,39 @@
+import html from "../assets/HTML.jpg"
+import css from "../assets/css.jpg"
+import bootstrap from "../assets/Bootstrap.jpg"
+import js from "../assets/Javascript.jpg"
+import react from "../assets/react.svg"
+import git from "../assets/Github.jpg"
+import types from "../assets/Typescript.jpg"
+
+
 const Tech_data = [
     {
-        "image": "./src/assets/HTML.jpg",
+        "image": html,
         "name": "HTML"
     },
     {
-        "image": "./src/assets/css.jpg",
+        "image": css,
         "name": "CSS"
     },
     {
-        "image": "./src/assets/Bootstrap.jpg",
+        "image": bootstrap,
         "name": "Bootstrap"
     },
     {
-        "image": "./src/assets/Javascript.jpg",
+        "image": js,
         "name": "Javascript"
     },
     {
-        "image": "./src/assets/react.svg",
+        "image": react,
         "name": "React"
     },
     {
-        "image": "./src/assets/Github.jpg",
+        "image": git,
         "name": "Github"
     },
     {
-        "image": "./src/assets/Typescript.jpg",
+        "image": types,
         "name": "Typescript"
     },
 ]

@@ -15,9 +15,9 @@ import Israel from "../assets/Israel.jpg"
                     <div className="left-side">
                         <img src={Israel} alt="" />
                     </div>
-                    <div className="right-side">
+                    {/* <div className="right-side">
                         <img src={Israel} alt="" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -27,6 +27,7 @@
     width: 100%;
     height: 12rem;
     background: #d6d6d6;
+    /* border: 1px solid hsl(0, 0%, 90%); */
     border-radius: 1rem;
 }
 
@@ -41,6 +42,7 @@
     margin-top: 2rem;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .work-card .body{
@@ -65,10 +67,10 @@
 .work-card .ctoo{
     margin-bottom: 1rem;
     margin-top: 2rem;
-
+  display: flex;
 }
 
-.work-card .ctoo a{
+.work-card .ctoo .a{
     text-decoration: none;
     padding: .9rem 1rem;
     background: #000;
@@ -76,6 +78,12 @@
     border-radius: 1rem;
     font-size: .9rem;
     cursor: pointer;
+}
+
+.work-card .ctoo .git{
+  text-decoration: none;
+  margin-left: .4rem;
+  color: #000;
 }
 
 @media (max-width: 991px) {

@@ -42,9 +42,6 @@
     to { transform: translateX(-500%); }
 } */
 
-.tech-section:hover{
-    animation-play-state: paused;
-}
 
 .image{
     width: 2rem;

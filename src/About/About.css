@@ -34,8 +34,8 @@
 }
 
 .left-side img{
-  width: 15rem;
-  height: 15rem;
+  width: 25rem;
+  height: 25rem;
   background: #000000;
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,8 +77,8 @@
     }
 
     .left-side img, .right-side img{
-      width: 13rem;
-      height: 13rem;
+      width: 18rem;
+      height: 18rem;
     }
 
 

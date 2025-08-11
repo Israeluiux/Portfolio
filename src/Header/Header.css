@@ -15,7 +15,7 @@
 }
 
 .section{
-    padding: 1rem 15%;
+    padding: 1rem 20%;
     padding-bottom: 1rem;
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,9 @@ li{
     font-size: 90%;
   }
 
-
+  .section{
+    padding: 1rem 10%;
+  }
 
 }
 
@@ -120,6 +122,10 @@ li{
     .display-cto{
         top: 23rem;
     }
+
+    .section{
+    padding: 1rem 7%;
+  }
 }
 
 @media (max-width: 550px){

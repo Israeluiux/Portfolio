@@ -11,6 +11,7 @@ const Hero = () => {
                     <div className="parent-content">
                         {/* middle container */}
                         <div className="main-content">
+                        <div className="available"><Link><span>•</span>  Available for hire</Link></div>
                         <h1 className="h1">Hey, I'm Balogun Israel, <br/> a Creative 
                         <span className="blue"> Frontend</span><br/>
                         <span className="orange"> Developer.</span>
@@ -20,7 +21,7 @@ const Hero = () => {
 
                     </div>
 
-        <div class="CTO">
+        <div className="CTO">
             <Link className="CTO-1" id="reachout" to="/reach_out">Reach Out</Link>
             <Link className="CTO-1" id="myworks" to="/myworks">Download CV</Link>
         </div>
