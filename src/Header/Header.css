@@ -27,6 +27,10 @@
     margin: 0;
 }
 
+.desktopnav{
+    display: flex;
+}
+
 .nav-links li a{
     text-decoration: none;
     color: #000;
@@ -93,20 +97,40 @@ li{
         z-index: 10;
         display: flex;
         flex-direction: column;
-        margin-top: 2rem;
-        margin-left: -1rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 0rem;
+        margin-left: -2.5rem;
     }
-    
+
     .nav-links li{
         margin-bottom: 2rem;
         font-size: 1.5rem;
+    }
+    
+
+    .navbar{
+        margin-top: 5rem;
+    }
+
+    .nav-cto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cto a{
+        padding: 1.2rem;
+        font-size: 1.2rem;
+
     }
     
     .cto{
         position: absolute;
         top: -123rem;
         z-index: 20;
-        margin-left: -2rem;
+        /* margin-left: 2rem; */
+
     }
     
     .burger{
@@ -115,12 +139,14 @@ li{
 
     /* display navs */
     .display-nav{
-        top: 5rem;
-        left: 0;
+    top: 5rem;
+    left: 0;
+    transition: .7s linear;  
     }
 
     .display-cto{
-        top: 23rem;
+        top: 27rem;
+        transition: .7s linear;  
     }
 
     .section{
@@ -132,22 +158,5 @@ li{
     body{
         overflow-x: hidden;
     }
-    
 
-    
-    .nav-links li{
-        margin-bottom: 2rem;
-        font-size: 1.5rem;
-    }
-
-
-    /* display navs */
-    .display-nav{
-        top: 5rem;
-        left: 0;
-    }
-
-    .display-cto{
-        top: 23rem;
-    }
 }
