@@ -1,5 +1,6 @@
 import "./About.css"
 import Israel from "../assets/Israel.jpg"
+import Card from "../Components/Card/Card"
 
  const About = () => {
     return (
@@ -15,11 +16,10 @@ import Israel from "../assets/Israel.jpg"
                     <div className="left-side">
                         <img src={Israel} alt="" />
                     </div>
-                    {/* <div className="right-side">
-                        <img src={Israel} alt="" />
-                    </div> */}
                 </div>
+
             </div>
+                <Card />
         </div>
     )
 }
