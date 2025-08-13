@@ -9,33 +9,38 @@ import club from "../assets/anfield.jpg"
 const card_data = [
     {
         "logo": netflix,
+        "class": "medium",
+        "sub-title": "Best Club In the world:",
+        "title": "Liverpool",
+        "image": club
+    },
+    {
+        "logo": netflix,
+        "class": "",
         "sub-title": "Favourite Series:",
         "title": "G.O.T",
         "image": GOT
     },
     {
         "logo": spotify,
+        "class": "",
         "sub-title": "Favourite Artist:",
         "title": "Dunsin Oyekan",
         "image": dunsin
     },
+    // {
+    //     "logo": netflix,
+    //     "class": "normal",
+    //     "sub-title": "Currently Watching:",
+    //     "title": "The Originals",
+    //     "image": original
+    // },
     {
         "logo": netflix,
-        "sub-title": "Currently Watching:",
-        "title": "The Originals",
-        "image": original
-    },
-    {
-        "logo": netflix,
+        "class": "",
         "sub-title": "Favourite Game:",
         "title": "FC24",
         "image": fc24
-    },
-    {
-        "logo": netflix,
-        "sub-title": "Favourite Spot:",
-        "title": "Anfield",
-        "image": club
     },
 ]
 

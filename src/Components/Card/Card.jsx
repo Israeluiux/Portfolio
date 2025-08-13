@@ -9,9 +9,9 @@ const Card = () => {
             </div>
 
             {
-                card_data.map((each) => (
+                card_data.map((each, index) => (
                     
-            <div className="sub-card">
+            <div className={`sub-card ${each.class}`} key={index}>
                 {/* sub card content */}
                 <div className="sub-head-card">
                     <div className="card-logo"><img src={each.logo} alt="" /></div>

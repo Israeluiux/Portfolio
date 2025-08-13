@@ -19,7 +19,7 @@
     padding-bottom: 1rem;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.021);
+    box-shadow: 0 0.5rem 1.5rem var(--shadow);
 }
 
 .nav-links{
@@ -33,12 +33,12 @@
 
 .nav-links li a{
     text-decoration: none;
-    color: #000;
+    color: var(--black);
 }
 
 .nav-links li a:hover{
     text-decoration: none;
-    color: hsl(0, 0%, 30%);
+    color: var(--btn-hover)
 }
 
 li{
@@ -50,8 +50,8 @@ li{
     margin-left: .5rem;
     text-decoration: none;
     padding: .9rem 1rem;
-    background: #000;
-    color: #fff;
+    background: var(--black);
+    color: var(--white);
     border-radius: 1rem;
     font-size: .9rem;
     cursor: pointer;
@@ -69,7 +69,7 @@ li{
   width: 2rem;
   height: 0.3rem;
   margin: 0.4rem;
-  background: #181818;
+  background: var(--main-background);
   border-radius: 1rem;
 }
 

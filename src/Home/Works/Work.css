@@ -19,14 +19,14 @@
     height: auto;
     /* width: 22rem; */
     padding: 1.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border);
     border-radius: 2rem;
 }
 
 .work-card .imgs{
     width: 100%;
     height: 12rem;
-    background: #d6d6d6;
+    background: var(--img-bg);
     /* border: 1px solid hsl(0, 0%, 90%); */
     border-radius: 1rem;
 }
@@ -47,7 +47,7 @@
 
 .work-card .body{
     font-size: 1.1rem;
-    color: hsl(0, 0%, 25%);
+    color: var(--textcolor);
     line-height: 1.4;
 }
 
@@ -60,7 +60,7 @@
 
 .work-card .type{
     padding: .6rem .8rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border);
     border-radius: 1rem;
 }
 
@@ -73,8 +73,8 @@
 .work-card .ctoo .a{
     text-decoration: none;
     padding: .9rem 1rem;
-    background: #000;
-    color: #fff;
+    background: var(--black);
+    color: var(--white);
     border-radius: 1rem;
     font-size: .9rem;
     cursor: pointer;
@@ -83,7 +83,7 @@
 .work-card .ctoo .git{
   text-decoration: none;
   margin-left: .4rem;
-  color: #000;
+  color: var(--black);
 }
 
 @media (max-width: 991px) {

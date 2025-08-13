@@ -12,12 +12,12 @@
 }
 
 .footer{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: var(--footer-bg);
     height: 100%;
     border-radius: 1rem;
     z-index: 1;
     padding: 1rem 2rem;
-    color: #fff;
+    color: var(--white);
 }
 
 .footer .h2{
@@ -41,7 +41,7 @@
 
 .socials a{
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
 }
 
 .contacts{

@@ -1,0 +1,48 @@
+.exp-container{
+    padding: 2rem 15%;
+}
+
+.work-exp{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.pj-name{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pj-position{
+    color: var(--textcolor);
+}
+
+.pj-duration{
+    background: var(--available);
+    padding: .8rem;
+    border-radius: 1rem;
+    color: var(--available-text);
+}
+
+@media (max-width: 991px) {
+  .exp-container {
+    padding: 2rem 10%;
+  }
+
+  
+}
+@media (max-width: 750px) {
+  .exp-container {
+    padding: 2rem 7%;
+  }
+
+
+  
+}
+@media (max-width: 550px) {
+  .exp-container {
+    padding: 2rem 6%;
+  }
+
+
+}
