@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 2.5rem;
+    gap: .4rem;
 }
 
 .pj-name{
@@ -15,6 +16,7 @@
 
 .pj-position{
     color: var(--textcolor);
+    width: 60;
 }
 
 .pj-duration{
@@ -44,5 +46,8 @@
     padding: 2rem 6%;
   }
 
+  .pj-duration{
+    font-size: .9rem;
+  }
 
 }
