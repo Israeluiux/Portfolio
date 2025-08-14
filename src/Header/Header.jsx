@@ -10,6 +10,10 @@ const Header = () => {
         setActivenav(!activenav)
     }
 
+    window.onscroll = () => {
+        window.onscroll = setActivenav(false)
+    };
+
     return(
         <div>
             <div className="section">
@@ -18,10 +22,10 @@ const Header = () => {
             {/* nav links */}
             <ol className={activenav === false? "nav-links": "nav-links display-nav"}>
                 <div className={activenav === false ? "desktopnav":"navbar"}>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/myworks">My works</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/" onClick={() => setActivenav(false)}>Home</Link></li>
+                    <li><Link to="/about" onClick={() => setActivenav(false)}>About</Link></li>
+                    <li><Link to="/myworks" onClick={() => setActivenav(false)}>My works</Link></li>
+                    <li><Link to="/contact" onClick={() => setActivenav(false)}>Contact</Link></li>
                 </div>
             </ol>
             {/* CTA's */}

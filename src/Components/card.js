@@ -1,6 +1,6 @@
 import dunsin from "../assets/Dunsin.jpg"
 import GOT from "../assets/GOT.jpg"
-import original from "../assets/Originals.jpg"
+import playstation from "../assets/xbox.jpg"
 import spotify from "../assets/spotify.jpg"
 import netflix from "../assets/netflix.jpg"
 import fc24 from "../assets/fc24.jpg"
@@ -36,7 +36,7 @@ const card_data = [
     //     "image": original
     // },
     {
-        "logo": netflix,
+        "logo": playstation,
         "class": "",
         "sub-title": "Favourite Game:",
         "title": "FC24",

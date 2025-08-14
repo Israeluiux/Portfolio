@@ -105,7 +105,7 @@ li{
 
     .nav-links li{
         margin-bottom: 2rem;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     
 
@@ -121,8 +121,7 @@ li{
 
     .cto a{
         padding: 1.2rem;
-        font-size: 1.2rem;
-
+        font-size: 1.5rem;
     }
     
     .cto{
@@ -130,7 +129,6 @@ li{
         top: -123rem;
         z-index: 20;
         /* margin-left: 2rem; */
-
     }
     
     .burger{
@@ -145,7 +143,7 @@ li{
     }
 
     .display-cto{
-        top: 27rem;
+        top: 31rem;
         transition: .7s linear;  
     }
 
