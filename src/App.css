@@ -1,6 +1,6 @@
 /* body{
-    background: #121212;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
 } */
 
 :root {
@@ -21,6 +21,27 @@
     --sub-title: hsl(0, 0%, 45%);
     --btn-hover: #3d3d3d;
     --work: #181818;
+    background: #fff;
+}
+
+[data-theme="dark"] {
+    --black: #ffffff;
+    --white: black;
+    background: hsl(0, 0%, 15%);
+    --shadow: rgba(0, 0, 0, 0.021);
+    --btn-hover: hsl(0, 0%, 100%);
+    --textcolor: hsl(0, 0%, 100%);
+    --available: hsl(133, 54%, 91%);
+    --available-text: hsl(153, 100%, 33%);
+    --heading: #ffffff;
+    --outline-hover: rgba(0, 0, 0, 0.134);
+    --border: #ffffff;
+    --img-bg: #3c3c3c;
+    --footer-bg: rgba(255, 255, 255, 0.929);
+    --card-bg: hsl(0, 0%, 38%);
+    --sub-title: hsl(0, 0%, 45%);
+    --btn-hover: #3d3d3d;
+    --work: #ffffff;
 }
 
 

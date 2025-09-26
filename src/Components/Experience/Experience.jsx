@@ -1,5 +1,6 @@
 import "./Experience.css"
 import experience_data from "../Experience"
+import { education } from "../Experience"
 
 
 const Experience = () => {
@@ -16,6 +17,22 @@ const Experience = () => {
                             {/* right side of the div */}
                             <div>
                                 <div className="pj-duration">{each["project-duration"]}</div>
+                            </div>
+                    </div>
+                    ))
+                }
+
+                <div className="work-title">Education</div>
+                {
+                    education.map((each, index) => (
+                    <div className="work-exp" key={index}>
+                            <div className="pj-detail">
+                                <div className="pj-name">{each.school}</div>
+                                <div className="pj-position">{each.course}</div>
+                            </div>
+                            {/* right side of the div */}
+                            <div>
+                                <div className="pj-duration">{each.year}</div>
                             </div>
                     </div>
                     ))

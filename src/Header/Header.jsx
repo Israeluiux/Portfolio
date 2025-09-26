@@ -5,6 +5,14 @@ import "./Header.css"
 
 const Header = () => {
     const [activenav, setActivenav] = useState(false)
+    const [theme, setTheme] = useState('light')
+
+    const toggleTheme = () => {
+        const newTheme = theme === 'light' ? "dark" : "light"
+        setTheme(newTheme)
+
+        document.documentElement.setAttribute("data-theme", newTheme)
+    }
     
     const openNav = () => {
         setActivenav(!activenav)
@@ -18,7 +26,7 @@ const Header = () => {
         <div>
             <div className="section">
             {/* logo section */}
-            <div className="logo" style={{display: 'flex'}}><img src={image} alt="" /><p>Israel</p></div>
+            <div className="logo" style={{display: 'flex',}}><p>Israel.dev</p></div>
             {/* nav links */}
             <ol className={activenav === false? "nav-links": "nav-links display-nav"}>
                 <div className={activenav === false ? "desktopnav":"navbar"}>
@@ -29,7 +37,8 @@ const Header = () => {
                 </div>
             </ol>
             {/* CTA's */}
-            <div className={activenav === false ? <div/> : "nav-cto"}>
+            <div style={{display: 'flex', alignItems: 'center'}} className={activenav === false ? <div/> : "nav-cto"}>
+            {/* <button onClick={toggleTheme}>Theme</button> */}
              <div className={activenav === false ? "cto" : "cto display-cto"}>
                 <Link className="signup" to="/reach_out">Reach out</Link>
             </div>
@@ -40,7 +49,6 @@ const Header = () => {
             <div className="line2"></div>
             <div className="line3"></div>
        </div>
-      
         </div>
         </div>
     )

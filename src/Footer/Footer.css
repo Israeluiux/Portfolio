@@ -1,6 +1,7 @@
 .footer-section{
     padding: 2rem 15%;
     padding-bottom: 3rem;
+    background: var(--background);
 }
 
 .sub-footer{

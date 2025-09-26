@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
 
         <div className="CTO">
-            <Link className="CTO-1" id="reachout" to="/reach_out">Reach Out</Link>
+            <Link className="CTO-1" id="reachout" to="/contact">Reach Out</Link>
             <Link className="CTO-1" id="myworks" to="/myworks">Download CV</Link>
         </div>
       </div>

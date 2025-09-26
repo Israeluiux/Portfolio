@@ -12,6 +12,7 @@
     padding: 0 15%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    background: var(--background);
     gap: 1rem;
 }
 

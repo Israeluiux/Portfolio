@@ -1,29 +1,33 @@
-import v1 from "../assets/v1 (1).jpg"
-import v2 from "../assets/v1 (2).jpg"
-import v3 from "../assets/v1.jpg"
-import v4 from "../assets/v1 (4).jpg"
+import note from "../assets/notes.png"
+import commerce from "../assets/Ecommerce.png"
+import portfolio from "../assets/portfolio.png"
+
+
 
 const work_data = [
     {
-        "img": v1,
-        "title": "Expense Tracker",
+        "img": note,
+        "title": "Notify",
         "body": "This expense tracker can help you track any sort of expense with ease",
-        "type": ["react", "Figma","Github", "Git"],
+        "type": ["React", "Css","Github", "RestAPI"],
+        "link": "https://github.com/Israeluiux/Notes-App"
     },
     {
-        "img": v2,
-        "title": "Invoice Generator",
+        "img": commerce,
+        "title": "E-commerce website",
         "body": "This expense tracker can help you track any sort of expense with ease",
-        "type": ["Typescript", "Figma", "CSS"],
+        "type": ["React", "Tailwind", "Github", "RestAPI"],
+        "link": "https://github.com/Israeluiux/Commerce-v2"
     },
     {
-        "img": v3,
-        "title": "Hostel Rental",
+        "img": portfolio,
+        "title": "Personal Portfolio",
         "body": "This expense tracker can help you track any sort of expense with ease",
-        "type": ["HTML", "Figma", "CSS"],
+        "type": ["React", "CSS"],
+        "link": "https://github.com/Israeluiux/Portfolio"
     },
     {
-        "img": v4,
+        "img": note,
         "title": "IDK",
         "body": "This expense tracker can help you track any sort of expense with ease",
         "type": ["react", "Figma", "Bootstrap"],

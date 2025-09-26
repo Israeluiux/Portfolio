@@ -6,7 +6,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 const Work = () => {
     return(
         <div className="work-section">
-                <div className="work-title">My Projects.</div>
+                <div className="work-title">Featured Projects.</div>
             <div className="work-body">
                 {
                     work_data.map((work, index) => (
@@ -24,7 +24,7 @@ const Work = () => {
                         }
                     </div>
                     <div className="ctoo">
-                        <Link to="" className="a">View Project</Link>
+                        <Link to={work.link} className="a">View Project</Link>
                         {/* <Link to="" className="git"><AiOutlineGithub size={40}/></Link> */}
                         </div>
                 </div>

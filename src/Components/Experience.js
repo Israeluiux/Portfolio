@@ -16,4 +16,18 @@
     },
 ]
 
+export const education = [
+    {
+        "school": "New Horizons Solutions",
+        "course": "Frontend Development",
+        "year": "Completed"
+    },
+    {
+        "school": "Olabisi Onabanjo University",
+        "course": "Computer Science",
+        "year": "In Progress"
+    }
+]
+
+
 export default experience_data

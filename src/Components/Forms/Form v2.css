@@ -1,4 +1,5 @@
 .form-container{
+    background: var(--background);
     padding: 2rem 15%;
 }
 
@@ -72,4 +73,8 @@ input{
     grid-template-columns: 1fr;
     gap: 0rem;
 }
+
+    input, .textarea {
+        margin-bottom: 1rem;
+    }
 }
