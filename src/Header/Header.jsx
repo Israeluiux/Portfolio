@@ -18,10 +18,6 @@ const Header = () => {
         setActivenav(!activenav)
     }
 
-    window.onscroll = () => {
-        window.onscroll = setActivenav(false)
-    };
-
     return(
         <div>
             <div className="section">

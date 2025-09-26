@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import 'locomotive-scroll/dist/locomotive-scroll.css';
 import './index.css'
 import App from './App.jsx'
 

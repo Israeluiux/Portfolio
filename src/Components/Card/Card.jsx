@@ -4,9 +4,6 @@ import card_data from "../card"
 const Card = () => {
     return (
         <div className="card-container">
-            <div className="sub-card" style={{background: "red", color: "white"}}>
-                <div className="text">A few of my Hobbies</div>
-            </div>
 
             {
                 card_data.map((each, index) => (
