@@ -22,9 +22,10 @@
 }
 
 .footer .h2{
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
-  line-height: 1.6;
+  line-height: 1.3;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .socials{

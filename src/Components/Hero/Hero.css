@@ -5,7 +5,7 @@
   justify-content: center;
   /* background: rgba(255, 255, 255, 0.1); */
   padding: 3rem 20%;
-    background: var(--background);
+  background: var(--background);
   padding-bottom: 1rem;
 }
 
@@ -17,7 +17,7 @@
 
 .main-content .p{
   font-size: 1.2rem;
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
   line-height: 1.3;
   color: var(--textcolor);
 }
@@ -51,11 +51,12 @@
 }
 
 .h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
   line-height: 1.2;
   color: var(--heading);
   margin-top: 2.5rem;
+  font-family: "Bebas Neue", sans-serif;
   /* padding: 0 4.5rem; */
 }
 
@@ -110,7 +111,7 @@
   }
 
   .h1{
-    font-size: 1.8rem;
+    font-size: 3rem;
   }
 
 }

@@ -10,9 +10,10 @@
 
 .work-title{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 2rem;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .work-card{
@@ -40,9 +41,10 @@
 
 .work-card .title{
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
     font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .work-card .body{
