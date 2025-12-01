@@ -7,9 +7,11 @@ const Hero = () => {
     <motion.div
       initial={{
         y: 60,
+        opacity: 0,
         filter: "blur(3px)",
       }}
-      animate={{
+      whileInView={{
+        opacity: 1,
         y: 0,
         filter: "blur(0px)",
       }}
