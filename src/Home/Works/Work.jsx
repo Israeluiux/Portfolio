@@ -41,7 +41,7 @@ const Work = () => {
               scale: 1.03,
             }}
             transition={{
-              duration: 0.3,
+              duration: 0.8,
               ease: "easeInOut",
             }}
             className="work-card"
